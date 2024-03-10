@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- It'd be cool to include pictures next to each item on the menu. That way, customers can get a sneak peek of what their order will look like, making the whole ordering experience more fun and visual.
