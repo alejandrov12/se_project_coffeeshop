@@ -60,11 +60,9 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <div class="header__footer-address">
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -113,6 +111,7 @@
                   id="name"
                   name="name"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
 
@@ -126,6 +125,7 @@
                   id="guests"
                   name="guests"
                   placeholder="1-8"
+                  required
                 />
               </label>
 
@@ -136,6 +136,7 @@
                   class="form__input"
                   id="date"
                   name="date"
+                  required
                 />
               </label>
 
@@ -147,6 +148,7 @@
                   id="email"
                   name="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
             </fieldset>
@@ -157,6 +159,7 @@
                 class="form__checkbox"
                 name="remember-me"
                 id="remember-me"
+                required
               />
               I agree with the terms of use</label
             >
@@ -236,28 +239,30 @@
           </ul>
         </section>
         <section id="contacts" class="about">
-            <h2 class="about__title">About the coffee shop</h2>
-            <div class="about__content">
-              <p class="about__paragraph">
-                Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.
-              </p>
-              <p class="about__paragraph">
-                Our main mission is keeping guests cozy and energized.
-              </p>
-              <p class="about__paragraph">
-                Besides that, we try to reduce our environmental impact -- so we don't sell single-use cups. But you can buy one of our reusable cups!
-              </p>
-            </div>
-            <div class="about__circle"></div>
-            <div class="about__circle about__circle_animation_blurred"></div>
-          </section>
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact -- so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer" id="contacts">
+      <footer class="footer">
         <div class="footer__content">
           <div class="footer__column">
             <img
-              src="/images/logo_coffeeshop_light.svg"
+              src="./images/logo_coffeeshop_light.svg"
               alt="TripleTen Logo"
               class="footer__logo"
             />
@@ -282,7 +287,7 @@
                     alt="Instagram Logo"
                     class="footer__social-icon"
                   />
-                Instagram</a
+                  Instagram</a
                 >
               </li>
             </ul>
